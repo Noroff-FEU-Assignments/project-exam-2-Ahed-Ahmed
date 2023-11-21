@@ -1,0 +1,45 @@
+.profile {
+  width: 100%;
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+
+  .images {
+    width: 100%;
+    height: 300px;
+    position: relative;
+
+    .cover {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+    }
+  }
+  .images-avatar {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    .profilePic {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: auto;
+      top: -150px;
+      cursor: pointer;
+      @media screen and (max-width: 500px) {
+        width: 150px;
+        height: 150px;
+        top: -100px;
+      }
+    }
+  }
+}
+.profileContainer {
+  margin-top: 100px;
+  padding-top: 50px;
+}

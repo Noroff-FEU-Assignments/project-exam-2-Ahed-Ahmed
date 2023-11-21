@@ -1,0 +1,53 @@
+.emojis-container {
+  margin-left: -80px;
+}
+
+.replycontainer {
+  display: flex;
+  width: 450px;
+  margin: 0px 0px;
+  @media screen and (max-width: 540px) {
+    width: 400px;
+  }
+  @media screen and (max-width: 500px) {
+    width: 300px;
+    margin: 0px 20px;
+  }
+  .currentuser {
+    background-color: rgb(105, 112, 110);
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+  }
+  form {
+    textarea {
+      border: none;
+      outline: none;
+      border-bottom: 1.5px solid lightgray;
+      margin-left: 12px;
+      width: 100%;
+      font-size: 13px;
+      font-family: "Poppins";
+      font-weight: 400;
+      width: 250px;
+      padding: 3px 8px;
+    }
+    @media screen and (max-width: 500px) {
+      width: 220px;
+      padding: 2px;
+    }
+    .post-button {
+      margin-left: 25px;
+      width: 75px;
+      padding: 8px 10px;
+      font-size: 12px;
+      background-color: rgb(65, 63, 63);
+    }
+  }
+}

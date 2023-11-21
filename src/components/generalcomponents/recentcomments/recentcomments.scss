@@ -1,0 +1,46 @@
+.main-comment-container {
+  p {
+    font-family: "Poppins";
+    font-size: 10px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #404040;
+  }
+  .comments-info-container {
+    .image-text-container {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      .profile-image-container {
+        display: flex;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        overflow: hidden;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+      .user {
+        p {
+          font-family: "Poppins";
+          font-size: 12px;
+          font-weight: 600;
+          margin-left: 5px;
+        }
+      }
+    }
+    .comment-body {
+      margin-left: 35px;
+      font-family: "Poppins";
+
+      p {
+        font-size: 11px;
+        margin-top: -8px;
+        font-weight: 400;
+      }
+    }
+  }
+}

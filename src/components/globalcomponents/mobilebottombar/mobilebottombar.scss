@@ -1,0 +1,22 @@
+.bottom-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  .bottom-link {
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .bottom-bar {
+    font-size: 14px;
+  }
+}

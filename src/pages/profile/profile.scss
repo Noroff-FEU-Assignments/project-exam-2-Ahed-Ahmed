@@ -1,0 +1,20 @@
+.following-container {
+  margin-left: 10px;
+  margin-top: 20px;
+  font-family: "Poppins";
+  .following-text {
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: -5px;
+  }
+  .following-button {
+    font-size: 12px;
+    font-weight: 600;
+    color: rebeccapurple;
+    cursor: pointer;
+  }
+}
+
+.current-userpost-container {
+  margin-top: 50px;
+}

@@ -1,0 +1,59 @@
+.followed-profiles {
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  padding: 20px 40px;
+  .top-text-container {
+    display: flex;
+    align-items: center;
+    font-family: "Poppins";
+
+    margin-bottom: 20px;
+    .toptext {
+      margin-right: 10px;
+      font-size: 14px;
+    }
+    span {
+      color: rebeccapurple;
+      font-size: 12px;
+    }
+  }
+  .info-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px 15px;
+    background-color: #fff;
+    .image-text-container {
+      display: flex;
+      align-items: center;
+      .image {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        img {
+          width: 100%;
+          height: 100%;
+          border-radius: 50%;
+          object-fit: cover;
+          margin-right: 8px;
+        }
+      }
+    }
+    .text {
+      font-family: "Poppins";
+      font-size: 12px;
+      font-weight: 300;
+      margin-left: 12px;
+    }
+  }
+  .unfollow {
+    font-size: 14px;
+    font-family: "Poppins";
+    color: rebeccapurple;
+    cursor: pointer;
+  }
+}

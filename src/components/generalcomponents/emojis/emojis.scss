@@ -1,0 +1,26 @@
+.icontext-container {
+  display: flex;
+  width: 45px;
+  justify-content: space-between;
+
+  align-items: center;
+  .emoji-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    .span {
+      width: 100%;
+      height: 100%;
+      font-size: 16px;
+    }
+  }
+  .text {
+    width: 18px;
+    font-family: "Poppins";
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 8px;
+  }
+}

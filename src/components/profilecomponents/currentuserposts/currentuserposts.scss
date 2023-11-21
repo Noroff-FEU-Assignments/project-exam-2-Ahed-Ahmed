@@ -1,0 +1,143 @@
+.userinfocontainer {
+  width: 100%;
+  padding: 5px 10px;
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+
+  .acountcontainer {
+    width: 100%;
+    img {
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+  }
+  .leftrightcontainer {
+    width: 100%;
+    display: flex;
+    .leftcontainer {
+      width: 100%;
+      .datelinecontainer {
+        display: flex;
+        width: 100%;
+        .datecontainer {
+          width: 54px;
+          p {
+            font-size: 8px;
+            font-weight: 500;
+          }
+        }
+        .rightcontainer {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          border-left: 1px solid lightgray;
+          padding: 0px 30px;
+          cursor: pointer;
+          @media (max-width: 540px) {
+            padding: 0px 15px;
+          }
+          .topbottomcontainer {
+            width: 100%;
+            // height: 450px;
+
+            .postimagecontainer {
+              width: 100%;
+              height: 360px;
+              @media screen and (max-width: 540px) {
+                height: 300px;
+              }
+              @media screen and (max-width: 500px) {
+                height: 240px;
+              }
+              background-color: rebeccapurple;
+              img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+              }
+            }
+            .countscontainer {
+              display: flex;
+              width: 100%;
+              align-items: center;
+              justify-content: space-around;
+              margin-top: 15px;
+              .countsection {
+                display: flex;
+                // width: 100%;
+                align-items: center;
+                p {
+                  font-size: 15px;
+                  line-height: 25px;
+                  font-weight: 400;
+                  margin-left: 8px;
+                }
+              }
+            }
+            .tagcontainer {
+              display: flex;
+              margin-top: 20px;
+              font-family: "Poppins";
+              font-size: 9px;
+              font-weight: 600;
+              width: 100%;
+              padding: 0px 10px;
+            }
+            .titlecontainer {
+              display: flex;
+              width: 100%;
+              padding: 0px 10px;
+              text-align: justify;
+              font-family: "Poppins";
+              font-size: 13px;
+              font-weight: 500;
+              margin-top: 6px;
+            }
+            .descriptioncontainer {
+              display: flex;
+              width: 100%;
+              padding: 0px 10px;
+              text-align: justify;
+              font-family: "Poppins";
+              font-size: 12px;
+              font-weight: 400;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// .myswiper {
+//   width: 650px;
+//   height: 400px;
+//   @media (max-width: 912px) {
+//     width: 500px;
+//   }
+//   @media (max-width: 768px) {
+//     width: 400px;
+//   }
+//   @media (max-width: 540px) {
+//     width: 310px;
+//     height: 290px;
+//   }
+//   @media (max-width: 500px) {
+//     width: 270px;
+//     height: 270px;
+//   }
+//   .swiperslide {
+//     border-radius: 40px;
+//     overflow: hidden;
+//     // width: 450px;
+//     img {
+//       display: block;
+//       width: 100%;
+//       height: 100%;
+//       border-radius: 40px;
+//       object-fit: cover;
+//     }
+//   }
+// }
